@@ -1,0 +1,32 @@
+.container{
+    height: vh;
+    width: vw;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: row flex-start space-between;
+    flex-direction: row;
+    border: 2px;
+    border-style: solid;
+    
+}
+
+.link{
+    
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
