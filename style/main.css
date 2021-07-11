@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    border-style: solid;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    flex-wrap: wrap;
+    align-items: right;
+    float: left;
+    width:40px;
+    height:40px;
+    margin: 1%;
+
+}
+ .content1{
+    display: flex;
+    float:left; 
+    border-style: solid;
+    margin:10px;
+    height:150px; 
+    width: 400px; 
+    align-items: center;
+
+} 
+/* 
+.content2{
+    display: flex;
+    float:left; 
+    border-style: solid;
+    margin:10px;
+    height:150px; 
+    width: 400px; 
+    align-items: center;
+
+} 
+.content3{
+    display: flex;
+    float:left; 
+    border-style: solid;
+    justify-content: flex-end;
+    height:150px; 
+    width: 1200px;
+}  
+*/
