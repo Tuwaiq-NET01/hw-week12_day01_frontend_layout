@@ -1,0 +1,29 @@
+/* button {
+    background-color: cadetblue;
+} */
+
+/* .container{
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+     align-items:flex-end;
+     flex-direction:column-reverse; 
+   
+} */
+
+.grid-container{
+    border: solid black;
+    border-width: thin;
+    display: grid;
+    grid: 80px / auto auto auto;
+    grid-gap: 3px;
+    padding: 10px;
+}
+
+.border{
+    display: grid;
+    grid-gap: 3px;
+    border: solid black;
+    border-width: thin;
+    padding: 10px;
+}
