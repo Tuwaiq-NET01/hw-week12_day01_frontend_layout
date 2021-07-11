@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+}
+
+div{
+    border-style: dotted;
+    margin:20px;
+}
+
+.container > div{
+    height: 70px;
+}
+
