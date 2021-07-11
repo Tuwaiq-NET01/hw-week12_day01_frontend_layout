@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .link {
+    color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+  }
+  
+  .col-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .col-13 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .flex1 {
+    flex: 1;
+    height: 200px;
+  }
+  
+  .flex2 {
+    flex: 2;
+    height: 200px;
+  }
