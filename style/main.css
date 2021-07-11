@@ -1,0 +1,48 @@
+.header
+{
+    background-color: blueviolet;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.boxes {
+    background-color: rgb(7, 226, 255);
+    width: 50px;
+    height: 50px;
+    margin: 15px 3px 15px 3px ;
+
+  }
+  .firstRow {
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px ;
+  }
+  .boxes-tow{
+    background-color: blueviolet;
+    width: 455px;
+    height: 150px;
+  }
+  .secondRow
+  {
+    display:flex;
+    justify-content:center; 
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px ;
+  }
+  .boxes-three1{
+    background-color: blueviolet;
+    width: 455px;
+    height: 150px;
+  }
+  .boxes-three2{
+    background-color: blueviolet;
+    width: 930px;
+    height: 150px;
+  }
+.thirdRow 
+{
+    background-color: blueviolet;
+    height: 150px;
+
+}
