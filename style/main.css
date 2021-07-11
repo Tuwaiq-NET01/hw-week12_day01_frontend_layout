@@ -1,0 +1,46 @@
+    body {
+        margin: 0;
+    }
+    
+    #container {
+        margin: 0;
+        height: 100vh;
+    }
+    
+    .nav-item {
+        border: 1px solid black;
+        padding: 12px;
+        float: left;
+        margin-right: 6px;
+    }
+    
+    #navbar {
+        border: 1px solid;
+        padding: 12px;
+        display: flex;
+    }
+    
+    #box2,
+    #box3 {
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item1 {
+        flex: 1;
+        height: 200px;
+        border: 1px solid;
+        margin: 6px;
+    }
+    
+    .item {
+        flex: 2;
+        height: 200px;
+        border: 1px solid;
+        margin: 6px;
+    }
+    
+    #box3 div:last-of-type {
+        flex: 4;
+    }
