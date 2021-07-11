@@ -1,0 +1,38 @@
+.nav { 
+    border: 2px solid black;
+    padding: 5px;
+
+}
+.link {
+    border: 1px solid black;
+    margin: 5px;
+    margin-top: 5px;
+}
+.cc{
+    clear: both;
+}
+
+.box{
+    display: flex;
+    flex-direction: row ;
+    
+}
+
+.boxin {
+    border: 2px solid ;
+    margin: 20px;
+    height: 200px;
+    flex: 1;
+}
+.boxin2 {
+    border: 2px solid ;
+    margin: 20px;
+    height: 200px;
+    flex: 2;
+}
+.boxin3 {
+    border: 2px solid ;
+    margin: 20px;
+    height: 200px;
+    flex: 3;
+}
