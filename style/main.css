@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  border-width: 5px;
+  border-style: solid;
+  border-color: aqua;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  margin-right: 10px;
+  color: white;
+}
+
+.b-aqua {
+  color: aqua;
+  border-width: 5px;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.col-13 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.flex-1 {
+  flex: 1;
+  height: 200px;
+}
+
+.flex-2 {
+  flex: 2;
+  height: 200px;
+}
