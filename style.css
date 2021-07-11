@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.header > a {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.first {
+    margin-top: 25px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first > .first__section {
+    height: 150px;
+    border: 1px solid black;
+    flex: 0.31;
+}
+
+.first > .second__section {
+    height: 150px;
+    border: 1px solid black;
+    flex: 0.33;
+}
+
+.first > .third__section {
+    height: 150px;
+    border: 1px solid black;
+    flex: 0.31;
+}
+
+.second {
+    margin-top: 25px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second > .first__section {
+    height: 150px;
+    border: 1px solid black;
+    flex: 0.31;
+}
+
+.second > .second__section {
+    height: 150px;
+    border: 1px solid black;
+    flex: 0.665;
+}
+
+.third {
+    margin-top: 25px;
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+}
