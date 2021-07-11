@@ -1,0 +1,36 @@
+.nav-bar-container, .upper-body, .center-body {
+    display: flex;
+}
+
+.nav-bar-container, .nav-item, .upper-item, .center-item, .footer {
+    border: 2px solid;
+}
+
+.upper-body, .center-body, .footer{
+    margin-top: 10px;
+}
+
+.nav-bar-container {
+    padding: 5px;
+}
+
+.nav-item{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.upper-body, .center-body{
+    justify-content: space-between;
+}
+
+.upper-item, .center-item, .footer{
+    height: 200px;
+}
+
+.upper-item, .center-item {
+    flex-grow: 0.324;
+}
+
+.center-item.last{
+    flex-grow: 0.662;
+}
