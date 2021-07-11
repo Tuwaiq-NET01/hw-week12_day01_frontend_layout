@@ -1,0 +1,39 @@
+#header{
+border-color: black;
+border-style: solid;
+border:2px solid black;
+display: flex;   
+flex-flow:row wrap-reverse;
+
+}
+.link{
+    margin: 50;
+    border: black;
+    border-style: solid;
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin: 10px;
+}
+.boxs{
+     align-items: center;
+     display: flex;
+    justify-content: center;
+}
+
+.box1{
+   
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    height: 200px;
+    width: 250px;
+    border:2px solid black;
+    display: flex;   
+    flex-flow:row-reverse wrap-reverse;
+    align-self: flex-end;
+    
+
+}
