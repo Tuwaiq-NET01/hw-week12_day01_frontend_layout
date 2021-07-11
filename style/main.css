@@ -1,0 +1,45 @@
+.container {
+    display: flex; /* or inline-flex */
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: rgb(214, 230, 245);
+  }
+  
+  .flex-container1 {
+    display: flex;
+    background-color: rgb(157, 201, 242);
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container2 {
+    display: flex;
+    background-color: rgb(157, 201, 242);
+  }
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container3 {
+    display: flex;
+    background-color: rgb(157, 201, 242);
+  }
+  .flex-container3 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
