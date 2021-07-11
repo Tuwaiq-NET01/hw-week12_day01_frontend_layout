@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container1{
+    display: float;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+}
+
+.innterContainer1{
+    margin-right:10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.container2{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+}
