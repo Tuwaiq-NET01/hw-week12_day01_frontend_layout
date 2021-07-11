@@ -1,0 +1,23 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border: 1px solid;
+    width: 400px;
+    height: 100px;
+    margin: 5px;
+  }
+  .nav-box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 30px;
+  }
+  .footer {
+    margin-top: 20px;
+    border: 1px solid;
+    display: flex;
+    height: 100px;
+  
