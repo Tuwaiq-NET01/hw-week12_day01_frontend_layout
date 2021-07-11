@@ -1,0 +1,31 @@
+
+
+#navBar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    border-style: solid;
+    height: 70px;
+}
+.item{
+    border-style: solid;
+
+}
+.box{
+    height: 70px;
+    width: 400px;
+    border-style: solid;
+}
+.five{
+    width: 800px;
+}
+.box-sexth{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
