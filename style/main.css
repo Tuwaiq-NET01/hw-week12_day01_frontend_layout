@@ -1,0 +1,60 @@
+.navbox{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.hnav{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 5px;
+}
+
+.header{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.iheader{
+    border: 1px solid black;
+    height: 200px;
+    flex: 0.33;
+}
+
+.iheader{
+    border: 1px solid black;
+    height: 200px;
+    flex: 0.33;
+}
+
+.iheader{
+    border: 1px solid black;
+    height: 200px;
+    flex: 0.33;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.imain1{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    flex: 0.33;
+}
+
+.imain2{
+    border: 1px solid black;
+    flex: 0.666;
+}
+
+.footer{
+    border: 1px solid black;
+   height: 200px;
+   margin-top: 15px;
+}
