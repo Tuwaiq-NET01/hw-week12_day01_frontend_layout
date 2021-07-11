@@ -7,14 +7,10 @@
       "footer";}
 .header{
     grid-area: header;
-    display: grid;
-    grid-template-columns: auto; 
-    column-gap: 1px;
-    row-gap: 1px;
+    display: flex;
     border: 0.25px solid;
-    margin-bottom:10px;
     height: 80px;
-
+    margin-bottom: 5px;
 }
 .body{
     grid-area: main;
@@ -27,22 +23,24 @@
 
 }
 .footer{
-
-    margin-top: 10px;
     border: 0.5px solid;
     height: 100px;
     grid-column-end: span 3;
 }
 .Link{
-    grid-row:grid-row-start;
+    margin-top: 10px;
     border: 0.25px solid;
     margin-left: 2.5px;
     margin-bottom: 2.5px;
     height: 50px;
-    width:25%;
+    width:45px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: -5px;
 }
 .box{
     border: 0.5px solid;
+    height: 80px;
 }
 .box5{
     grid-column-end: span 2;
