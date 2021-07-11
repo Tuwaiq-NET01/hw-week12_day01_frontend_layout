@@ -1,0 +1,33 @@
+.Body{
+    display:flex;
+
+
+}
+.nav{
+       border: solid;
+       display:flex;
+       height: 30px;
+
+    }
+.box{
+
+    border: solid;
+    margin: 2px;
+    justify-content: left;    
+
+
+}
+.row{
+    justify-content: left; 
+    display:flex;
+    justify-content:space-between;
+}
+.box1{
+       border: solid;
+    display:flex;
+    height: 60px;
+    width: 300px;
+    margin: 2px;
+
+ }
+ 
