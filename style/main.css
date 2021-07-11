@@ -6,8 +6,26 @@ div{
     border-style: dotted;
     margin:20px;
 }
-
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-template-areas: 
+    "head head head"
+    "nav body body"
+    "foot foot foot";
+}
 .container > div{
     height: 70px;
 }
-
+ 
+ .box4 {
+    grid-area: nav;
+  }
+  .box5 {
+    grid-area: body;
+  }
+  .box6 {
+    grid-area: foot;
+  }
+  
