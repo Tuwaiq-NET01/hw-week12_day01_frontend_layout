@@ -1,0 +1,23 @@
+.div1 { grid-area: div1; }
+.div2 { grid-area: div2; }
+.div3 { grid-area: div3; }
+.div4 { grid-area: div4; }
+.div5 { grid-area: div5; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'div1 div1 div1 div1 div1 div1'
+    'div2 div2 div3 div3 div4 div4'
+    'div5 div5 div5 div5 div5 div5';
+  grid-gap: 5px;
+  background-color:black;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
