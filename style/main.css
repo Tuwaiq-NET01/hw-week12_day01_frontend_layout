@@ -7,18 +7,56 @@ body{
     display: float;
     border-style: solid;
     border-color: black;
-    height: 50px;
+    height: 60px;
+    width: 97%;
+    padding: 10px;
 }
 
 .innterContainer1{
+    float: left;
     margin-right:10px;
+    margin-top: 10px;
+    padding: 10px;
     border-style: solid;
     border-color: black;
 }
 
 .container2{
-    display: flex;
+    float: left;
+    height: 5px;
+    width: 100px;
     border-style: solid;
     border-color: black;
-    height: 50px;
+    margin-top: 20px;
+    
+    padding: 10%;
+    padding-top: 100px;
+    margin-right: 85px;
+    
+}
+
+.container3{
+    float: left;
+    height: 5px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    
+    padding: 10%;
+    padding-right: 625px;
+    padding-top: 100px;
+    margin-right: 85px;
+    
+}
+
+.container4{
+    display: float;
+    border-style: solid;
+    border-color: black;
+    height: 60px;
+    width: 97%;
+    padding: 10px;
+    padding-top: 100px;
+    margin-top: 600px;
 }
